@@ -303,7 +303,7 @@
 
 &iomuxc {
 	pinctrl-names = "default";
-	pinctrl-0 = <&pinctrl_hog &external_hog>;
+	pinctrl-0 = <&pinctrl_hog>;
 
 	imx6x-udoo-neo {
 
