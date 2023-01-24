@@ -27,7 +27,7 @@ mv "$ROOT_PARTITION/lib/firmware" "$ROOT_PARTITION/lib/$RELEASE/"
 mkdir -p "$ROOT_PARTITION/lib/firmware/"
 mv "$ROOT_PARTITION/lib/$RELEASE" "$ROOT_PARTITION/lib/firmware/"
 
-cd "$SD_CARD_PATH"
 cp "$BASEPATH/install-kernel.sh" "$SD_CARD_PATH/"
 
+cd "$SD_CARD_PATH"
 tar -cvzf ./teledos-udo-neo-kernel.tgz ./install-kernel.sh ./boot ./root
